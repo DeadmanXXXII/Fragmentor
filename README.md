@@ -1,5 +1,6 @@
 # Fragmentor
-This creates custom .pcap files with any payloads you embed each Payload is given its own packet and can be encoded for obfuscation.
+
+This creates custom .pcap files with any payloads you embed, each payload is given its own request and can be encoded for obfuscation with a choice of htttps, http, ICMP, DHCP.
 
 I used python anywhere as due to scapy needing kernel and socket binding on a nethunter rootless install it will not work.
 
