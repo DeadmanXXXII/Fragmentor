@@ -10,3 +10,7 @@ When using for anything other than this lab you need to be able to code to remov
 Once you have crafted your .pcap files you can then host them and either forward requests through them like a proxy or add them as a reference in sequencer and the packet should carry.
 Execution will only work if you have paid attention as the sockets wont bind and the Payloads will be redundant.
 Like a dropped ICMP or a timed out DHCP it will give you nothing.
+
+![fragcmd1](https://raw.githubusercontent.com/DeadmanXXXII/Fragmentor/Screenshot_20250909-214559.png)
+
+Screenshot_20250909-214756.png
