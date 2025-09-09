@@ -1,11 +1,6 @@
 # Fragmentor
 This creates custom .pcap files with any payloads you embed each Payload is given its own packet and can be encoded for obfuscation.
 
-
-```
-python3 fragmentor.py --dst 10.10.31.110 --port 80 --host fragmented.thm --path /test --commands 'printf{"WE HACKED YOU!"}' 'PS EXEC $/Restart-Computer' 'PS EXEC $/Get-Item flag.txt' --fragsize 120
-```
-
 I used python anywhere as due to scapy needing kernel and socket binding on a nethunter rootless install it will not work.
 
 Once you have crafted your .pcap files you can then host them and either forward requests through them like a proxy or add them as a reference in sequencer and the packet should carry.
