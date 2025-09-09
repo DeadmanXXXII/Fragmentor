@@ -92,6 +92,6 @@ Be careful: running arbitrary commands through packet delivery remotely can brea
 
 ---
 
-[fragcmd1](https://raw.githubusercontent.com/DeadmanXXXII/Fragmentor/Screenshot_20250909-214559.png)
+![fragcmd1](https://raw.githubusercontent.com/DeadmanXXXII/Fragmentor/main/Screenshot_20250909-214559.png)
 
-![](https://raw.githubusercontent.com/DeadmanXXXII/Fragmentor/Screenshot_20250909-214756.png)
+![cmd3](https://raw.githubusercontent.com/DeadmanXXXII/Fragmentor/main/Screenshot_20250909-214756.png)
