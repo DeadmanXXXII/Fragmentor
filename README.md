@@ -1,5 +1,5 @@
 # Fragmentor
-This creates three custom .pcap files with any payloads you embed.
+This creates custom .pcap files with any payloads you embed each Payload is given its own packet and can be encoded for obfuscation.
 
 
 ```
@@ -9,6 +9,7 @@ python3 fragmentor.py --dst 10.10.31.110 --port 80 --host fragmented.thm --path 
 I used python anywhere as due to scapy needing kernel and socket binding on a nethunter rootless install it will not work.
 
 Once you have crafted your .pcap files you can then host them and either forward requests through them like a proxy or add them as a reference in sequencer and the packet should carry.
+
 Execution will only work if you have paid attention as the sockets wont bind and the Payloads will be redundant.
 Like a dropped ICMP or a timed out DHCP it will give you nothing.
 
@@ -60,7 +61,7 @@ Hosting .pcap files:
 
 You can forward traffic through them (like a proxy).
 
-Use tools like Sequencer to replay the packets.
+Use tools like Sequencer to replay the packets in an order or?
 
 
 Execution won’t happen automatically unless:
@@ -84,7 +85,7 @@ You’ll need OS-specific payloads.
 
 Remove the raw socket disable if you want active testing.
 
-Be careful: running arbitrary PowerShell or shell commands remotely can break systems or trigger security alerts.
+Be careful: running arbitrary commands through packet delivery remotely can break systems or trigger security alerts and cause thousands in damages.
 
 
 
@@ -93,4 +94,4 @@ Be careful: running arbitrary PowerShell or shell commands remotely can break sy
 
 [fragcmd1](https://raw.githubusercontent.com/DeadmanXXXII/Fragmentor/Screenshot_20250909-214559.png)
 
-Screenshot_20250909-214756.png
+![](https://raw.githubusercontent.com/DeadmanXXXII/Fragmentor/Screenshot_20250909-214756.png)
